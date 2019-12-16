@@ -1,0 +1,11 @@
+{
+	"commands": [{
+			"commandID": 636293638250140279,
+			"commandName": "Reload Playlist",
+			"commandOutputFile": null,
+			"commandParameter": [],
+			"commandState": 4,
+			"commandType": 4
+		}
+	]
+}

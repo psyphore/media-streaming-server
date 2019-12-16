@@ -1,0 +1,176 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Node Media Service",
+		"_postman_id": "285967f2-8c49-96f9-123b-20ccec37a4ac",
+		"description": "nodejs + express + typescript web api\nserving media content",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Client Endpoints",
+			"description": "",
+			"item": [
+				{
+					"name": "Client media playing",
+					"request": {
+						"url": "{{base-url}}/api/client/current/media/0",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"clientState\": 4,\r\n\t\"clientVersion\": \"1.0.0\",\r\n\t\"currentPlaylistName\": \"4 June @ 8PM\",\r\n\t\"currentPlaylistScheduleName\": \"Sample 2\",\r\n\t\"currentPlaylistItem\": \"AKA_-_Caiphus_Song-fakaza.com_.mp3\",\r\n\t\"currentPlaylistEndtime\": \"20:50:00\",\r\n\t\"endTimeTicks\": 666000000000,\r\n\t\"currentPlaylistStartTime\": \"20:40:00\",\r\n\t\"startTimeTicks\": 270000000000,\r\n\t\"currentPlaylistScheduleVersion\": 9,\r\n\t\"pointInTime\": \"2017-06-04T18:17:53+02:00\"\r\n}\r\n"
+						},
+						"description": "simulate media currently played check in"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Playlist Endpoints",
+			"description": "",
+			"item": [
+				{
+					"name": "Stream Audio",
+					"request": {
+						"url": "{{base-url}}/api/playlist/stream/a/Work - Rihanna ft. Drake (howwe)_1455605248.mp3",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "get audio media binary stream"
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Playlist",
+					"request": {
+						"url": "{{base-url}}/api/playlist/generate",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "{{content-type}}",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "Generate Playlist from available media"
+					},
+					"response": []
+				},
+				{
+					"name": "Stream Video",
+					"request": {
+						"url": "{{base-url}}/api/playlist/stream/v/ETRG.mp4",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "get media binary stream"
+					},
+					"response": []
+				},
+				{
+					"name": "Stream Artwork",
+					"request": {
+						"url": "{{base-url}}/api/playlist/artwork/Power-HD.png",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "get media binary stream"
+					},
+					"response": []
+				},
+				{
+					"name": "Test Generate Playlist",
+					"request": {
+						"url": "{{base-url}}/api/playlist/generate/test",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "{{content-type}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": "Test Generate Playlist from available media"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Latest Playlist",
+					"request": {
+						"url": "{{base-url}}/api/playlist/latest",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "{{content-type}}",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "get latest imported playlist schedule"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reports",
+			"description": "",
+			"item": [
+				{
+					"name": "Client's last media check in",
+					"request": {
+						"url": "{{base-url}}/api/report/last/media",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"clientState\": 4,\r\n\t\"clientVersion\": \"1.0.0\",\r\n\t\"currentPlaylistName\": \"4 June @ 8PM\",\r\n\t\"currentPlaylistScheduleName\": \"Sample 2\",\r\n\t\"currentPlaylistItem\": \"AKA-The-World-Is-Yours.mp3\",\r\n\t\"currentPlaylistEndtime\": \"20:50:00\",\r\n\t\"endTimeTicks\": 666000000000,\r\n\t\"currentPlaylistStartTime\": \"20:40:00\",\r\n\t\"startTimeTicks\": 270000000000,\r\n\t\"currentPlaylistScheduleVersion\": 9,\r\n\t\"pointInTime\": \"2017-06-04T18:17:53+02:00\"\r\n}\r\n"
+						},
+						"description": "get last client checkin"
+					},
+					"response": []
+				},
+				{
+					"name": "Client's media check in with page size",
+					"request": {
+						"url": "{{base-url}}/api/report/media/20",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"clientState\": 4,\r\n\t\"clientVersion\": \"1.0.0\",\r\n\t\"currentPlaylistName\": \"4 June @ 8PM\",\r\n\t\"currentPlaylistScheduleName\": \"Sample 2\",\r\n\t\"currentPlaylistItem\": \"AKA-The-World-Is-Yours.mp3\",\r\n\t\"currentPlaylistEndtime\": \"20:50:00\",\r\n\t\"endTimeTicks\": 666000000000,\r\n\t\"currentPlaylistStartTime\": \"20:40:00\",\r\n\t\"startTimeTicks\": 270000000000,\r\n\t\"currentPlaylistScheduleVersion\": 9,\r\n\t\"pointInTime\": \"2017-06-04T18:17:53+02:00\"\r\n}\r\n"
+						},
+						"description": "get client checkin "
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

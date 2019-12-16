@@ -1,0 +1,18 @@
+{
+	"Client": {
+		"ClientName": "Food Lovers (La Lucia)",
+		"DropBoxURI": "\\DBSLive\\FoodLovers\\La Lucia",
+		"IPAddress": "",
+		"TeamViewerID": "747791587",
+		"TeamViewerPassword": "microserver1"
+	},
+	"ClientVersion": "1.0.0.0",
+	"CurrentCommandState": "InPlay",
+	"CurrentPlaylistEndTime": "PT17H30M",
+	"CurrentPlaylistName": "Jan 1",
+	"CurrentPlaylistScheduleName": "Schedule 1",
+	"CurrentPlaylistScheduleVersion": 0,
+	"CurrentPlaylistStartTime": "PT7H",
+	"CurrentState": 3,
+	"PointInTime": "\/Date(1493759067097+0200)\/"
+}

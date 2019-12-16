@@ -1,0 +1,92 @@
+{
+  "endTime": "23:59:59",
+  "endTimeTicks": 666000000000,
+  "month": "May",
+  "name": "Sample 1",
+  "playlists": [
+    {
+      "audioRepo": null,
+      "completed": false,
+      "date": "2017-05-14T00:00:00",
+      "inPlayIndex": -1,
+      "inPlayItem": {
+        "duration": "00:04:35.3306122",
+        "durationTicks": 2753306122,
+        "id": 0,
+        "mediaType": 5,
+        "name": "06 - 4000 Miles (ft Chali 2na & Lat.mp3",
+        "relativePath": "Music\\06 - 4000 Miles (ft Chali 2na & Lat.mp3",
+        "scheduledEndTime": "07:34:35.3306122",
+        "scheduledStartTime": "07:30:00",
+        "startTimeTicks": 270000000000,
+        "volume": 50
+      },
+      "endTime": "23:59:59",
+      "endTimeTicks": 666000000000,
+      "items": [
+        {
+          "duration": "00:04:35.3306122",
+          "durationTicks": 2753306122,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Bucie ft Black Motion - Rejoice.mp3",
+          "relativePath": "Music\\Bucie ft Black Motion - Rejoice.mp3",
+          "scheduledEndTime": "23:34:35.3306122",
+          "scheduledStartTime": "23:00:00",
+          "startTimeTicks": 270000000000,
+          "volume": 50
+        },
+        {
+          "duration": "00:04:35.3306122",
+          "durationTicks": 2753306122,
+          "id": 0,
+          "mediaType": 9,
+          "name": "ETRG.mp4",
+          "relativePath": "Video\\ETRG.mp4",
+          "scheduledEndTime": "23:34:35.3306122",
+          "scheduledStartTime": "23:00:00",
+          "startTimeTicks": 270000000000,
+          "volume": 50
+        },
+        {
+          "duration": "00:00:05",
+          "durationTicks": 5000,
+          "id": 0,
+          "mediaType": 6,
+          "name": "Power-HD.png",
+          "relativePath": "Music\\Power-HD.png",
+          "scheduledEndTime": "23:34:35.3306122",
+          "scheduledStartTime": "23:00:00",
+          "startTimeTicks": 270000000000,
+          "volume": 0
+        }
+      ],
+      "playlistName": "14 May",
+      "sessionDequeueCount": 0,
+      "startTime": "07:30:00",
+      "startTimeTicks": 270000000000
+    }
+  ],
+  "startTime": "07:30:00",
+  "startTimeTicks": 270000000000,
+  "playlistTemplate": {
+    "mediaMatrix": {
+      "patternItems": [
+        {
+          "allowDuplicates": true,
+          "playCount": 2,
+          "mediaType": 5,
+          "scheduleStyle": 1,
+          "scheduledTime": "00:00:00",
+          "scheduledTimeTicks": 0,
+          "volume": 50
+        }
+      ],
+      "timeScheduledItems": [],
+      "timeScheduledTypes": []
+    },
+    "templateName": "Template 1",
+    "filename": "Template 1.json"
+  },
+  "version": 7
+}

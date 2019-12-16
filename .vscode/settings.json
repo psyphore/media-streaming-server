@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "search.exclude": {
+    "**/coverage_js": true,
+    "**/coverage": true,
+    "**/dist": true
+  },
+  "vsicons.presets.angular": true,
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "git.enabled": true,
+  "files.autoSave": "off",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/**/*.js": {"when": "$(basename).ts"},
+    "**/**/*.js.map": {"when": "$(basename)"}
+  },
+  "editor.glyphMargin": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.inlineValues": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "vsicons.projectDetection.autoReload": true,
+  "window.zoomLevel": 0,
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": true
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.useCodeSnippetsOnMethodSuggest": false
+}

@@ -1,0 +1,11 @@
+{
+	"commands": [{
+			"commandID": 636293638250140279,
+			"commandName": "Report Client State Log",
+			"commandOutputFile": null,
+			"commandParameter": ["2017-09-01 00:00:00", "2017-09-11 23:59:59"],
+			"commandState": 3,
+			"commandType": 7
+		}
+	]
+}

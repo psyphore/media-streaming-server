@@ -1,0 +1,253 @@
+{
+  "endTime": "23:59:59",
+  "endTimeTicks": 462000000000,
+  "month": "June",
+  "name": "Schedule 2",
+  "playlists": [
+    {
+      "audioRepo": null,
+      "completed": false,
+      "date": "2017-06-29T00:00:00",
+      "inPlayIndex": -1,
+      "inPlayItem": {
+        "duration": "00:03:53.2995000",
+        "durationTicks": 2332995000,
+        "id": 0,
+        "mediaType": 5,
+        "name": "Slipknot - Duality (Jauz X Sullivan King Remix) @JAUZOFFICIAL @ITSSULLIVANKING FREE DL.mp3",
+        "relativePath": "Music\\Slipknot - Duality (Jauz X Sullivan King Remix) @JAUZOFFICIAL @ITSSULLIVANKING FREE DL.mp3",
+        "scheduledEndTime": "12:35:53.2995000",
+        "scheduledStartTime": "12:32:00",
+        "startTimeTicks": 451200000000,
+        "volume": 50
+      },
+      "endTime": "20:50:00",
+      "endTimeTicks": 462000000000,
+      "items": [
+        {
+          "duration": "00:04:59",
+          "durationTicks": 2332995000,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Bucie ft Black Motion - Rejoice.mp3",
+          "relativePath": "Music\\Bucie ft Black Motion - Rejoice.mp3",
+          "scheduledEndTime": "20:04:59",
+          "scheduledStartTime": "20:00:00",
+          "startTimeTicks": 451200000000,
+          "volume": 50
+        },
+        {
+          "duration": "00:00:19",
+          "durationTicks": 220000000,
+          "id": 0,
+          "mediaType": 9,
+          "name": "ETRG.mp4",
+          "relativePath": "Video\\ETRG.mp4",
+          "scheduledEndTime": "20:05:10",
+          "scheduledStartTime": "20:04:59",
+          "startTimeTicks": 453532995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:00:10",
+          "durationTicks": 100000000,
+          "id": 0,
+          "mediaType": 6,
+          "name": "Power-HD.png",
+          "relativePath": "Picture\\Power-HD.png",
+          "scheduledEndTime": "20:36:25.2995000",
+          "scheduledStartTime": "20:36:15.2995000",
+          "startTimeTicks": 453752995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:04:01",
+          "durationTicks": 3244668750,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Cassper Nyovest - Tito Mboweni.mp3",
+          "relativePath": "Music\\Cassper Nyovest - Tito Mboweni.mp3",
+          "scheduledEndTime": "20:41:49.7663750",
+          "scheduledStartTime": "20:36:25.2995000",
+          "startTimeTicks": 453852995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:05:01",
+          "durationTicks": 3015574375,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Anatii__Cassper_Nyovest_-_Jump_Ft_Nasty_C.mp3",
+          "relativePath": "Music\\Anatii__Cassper_Nyovest_-_Jump_Ft_Nasty_C.mp3",
+          "scheduledEndTime": "20:46:51.3238125",
+          "scheduledStartTime": "20:41:49.7663750",
+          "startTimeTicks": 457097663750,
+          "volume": 50
+        },
+        {
+          "duration": "00:04:56",
+          "durationTicks": 2096848125,
+          "id": 0,
+          "mediaType": 5,
+          "name": "01 - Black Motion-Africana (feat. Brenden Praise & Chimamusique.mp3",
+          "relativePath": "Music\\01 - Black Motion-Africana (feat. Brenden Praise & Chimamusique.mp3",
+          "scheduledEndTime": "20:50:21.0086250",
+          "scheduledStartTime": "20:46:51.3238125",
+          "startTimeTicks": 460113238125,
+          "volume": 50
+        }
+      ],
+      "playlistName": "29 June",
+      "sessionDequeueCount": 0,
+      "startTime": "20:00:00",
+      "startTimeTicks": 451200000000
+    },
+    {
+      "audioRepo": null,
+      "completed": false,
+      "date": "2017-06-30T00:00:00",
+      "inPlayIndex": -1,
+      "inPlayItem": {
+        "duration": "00:03:53.2995000",
+        "durationTicks": 2332995000,
+        "id": 0,
+        "mediaType": 5,
+        "name": "Slipknot - Duality (Jauz X Sullivan King Remix) @JAUZOFFICIAL @ITSSULLIVANKING FREE DL.mp3",
+        "relativePath": "Music\\Slipknot - Duality (Jauz X Sullivan King Remix) @JAUZOFFICIAL @ITSSULLIVANKING FREE DL.mp3",
+        "scheduledEndTime": "12:35:53.2995000",
+        "scheduledStartTime": "12:32:00",
+        "startTimeTicks": 451200000000,
+        "volume": 50
+      },
+      "endTime": "20:50:00",
+      "endTimeTicks": 462000000000,
+      "items": [
+        {
+          "duration": "00:04:59",
+          "durationTicks": 2332995000,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Bucie ft Black Motion - Rejoice.mp3",
+          "relativePath": "Music\\Bucie ft Black Motion - Rejoice.mp3",
+          "scheduledEndTime": "20:24:59",
+          "scheduledStartTime": "20:20:00",
+          "startTimeTicks": 451200000000,
+          "volume": 50
+        },
+        {
+          "duration": "00:00:19",
+          "durationTicks": 220000000,
+          "id": 0,
+          "mediaType": 9,
+          "name": "ETRG.mp4",
+          "relativePath": "Video\\ETRG.mp4",
+          "scheduledEndTime": "20:35:10",
+          "scheduledStartTime": "20:34:59",
+          "startTimeTicks": 453532995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:00:10",
+          "durationTicks": 100000000,
+          "id": 0,
+          "mediaType": 6,
+          "name": "Power-HD.png",
+          "relativePath": "Picture\\Power-HD.png",
+          "scheduledEndTime": "20:36:25.2995000",
+          "scheduledStartTime": "20:36:15.2995000",
+          "startTimeTicks": 453752995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:04:01",
+          "durationTicks": 3244668750,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Cassper Nyovest - Tito Mboweni.mp3",
+          "relativePath": "Music\\Cassper Nyovest - Tito Mboweni.mp3",
+          "scheduledEndTime": "20:31:49.7663750",
+          "scheduledStartTime": "20:36:25.2995000",
+          "startTimeTicks": 453852995000,
+          "volume": 50
+        },
+        {
+          "duration": "00:05:01",
+          "durationTicks": 3015574375,
+          "id": 0,
+          "mediaType": 5,
+          "name": "Anatii__Cassper_Nyovest_-_Jump_Ft_Nasty_C.mp3",
+          "relativePath": "Music\\Anatii__Cassper_Nyovest_-_Jump_Ft_Nasty_C.mp3",
+          "scheduledEndTime": "20:36:51.3238125",
+          "scheduledStartTime": "20:31:49.7663750",
+          "startTimeTicks": 457097663750,
+          "volume": 50
+        },
+        {
+          "duration": "00:04:56",
+          "durationTicks": 2096848125,
+          "id": 0,
+          "mediaType": 5,
+          "name": "01 - Black Motion-Africana (feat. Brenden Praise & Chimamusique.mp3",
+          "relativePath": "Music\\01 - Black Motion-Africana (feat. Brenden Praise & Chimamusique.mp3",
+          "scheduledEndTime": "20:40:21.0086250",
+          "scheduledStartTime": "20:36:51.3238125",
+          "startTimeTicks": 460113238125,
+          "volume": 50
+        }
+      ],
+      "playlistName": "30 June",
+      "sessionDequeueCount": 0,
+      "startTime": "20:00:00",
+      "startTimeTicks": 451200000000
+    }
+  ],
+  "startTime": "18:00:00",
+  "startTimeTicks": 451200000000,
+  "playlistTemplate": {
+    "mediaMatrix": {
+      "patternItems": [
+        {
+          "allowDuplicates": true,
+          "playCount": 1,
+          "mediaType": 5,
+          "scheduleStyle": 1,
+          "scheduledTime": "00:00:00",
+          "scheduledTimeTicks": 0,
+          "volume": 50
+        },
+        {
+          "allowDuplicates": true,
+          "playCount": 1,
+          "mediaType": 9,
+          "scheduleStyle": 1,
+          "scheduledTime": "00:00:00",
+          "scheduledTimeTicks": 0,
+          "volume": 50
+        },
+        {
+          "allowDuplicates": true,
+          "playCount": 1,
+          "mediaType": 6,
+          "scheduleStyle": 1,
+          "scheduledTime": "00:00:00",
+          "scheduledTimeTicks": 0,
+          "volume": 50
+        },
+        {
+          "allowDuplicates": true,
+          "playCount": 2,
+          "mediaType": 5,
+          "scheduleStyle": 1,
+          "scheduledTime": "00:00:00",
+          "scheduledTimeTicks": 0,
+          "volume": 50
+        }
+      ],
+      "timeScheduledItems": [],
+      "timeScheduledTypes": []
+    },
+    "templateName": "Template 1",
+    "filename": "Template 1.json"
+  },
+  "version": 2
+}

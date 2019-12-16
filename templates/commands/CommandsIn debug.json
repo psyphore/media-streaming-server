@@ -1,0 +1,11 @@
+{
+	"commands": [{
+			"commandID": 636293638250140279,
+			"commandName": "Debug",
+			"commandOutputFile": null,
+			"commandParameter": [],
+			"commandState": 3,
+			"commandType": 10
+		}
+	]
+}

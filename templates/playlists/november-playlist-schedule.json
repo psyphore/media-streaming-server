@@ -1,0 +1,144 @@
+{
+	"endTime": "23:59:59",
+	"endTimeTicks": 462000000000,
+	"month": "November",
+	"name": "Schedule 1",
+	"playlists": [{
+			"audioRepo": null,
+			"completed": false,
+			"date": "2017-11-12T00:00:00",
+			"inPlayIndex": -1,
+			"inPlayItem": {},
+			"endTime": "23:00:00",
+			"endTimeTicks": 462000000000,
+			"items": [{
+					"duration": "00:05:15",
+					"durationTicks": 2332995000,
+					"id": 0,
+					"mediaType": 5,
+					"name": "AKA_-_10_Fingers_ft_Anatii-fakaza.com_.mp3",
+					"relativePath": "Music\\AKA_-_10_Fingers_ft_Anatii-fakaza.com_.mp3",
+					"scheduledEndTime": "22:55:15",
+					"scheduledStartTime": "11:10:00",
+					"startTimeTicks": 451200000000,
+					"volume": 50
+				}, {
+					"duration": "00:00:19",
+					"durationTicks": 220000000,
+					"id": 0,
+					"mediaType": 9,
+					"name": "ETRG.mp4",
+					"relativePath": "Video\\ETRG.mp4",
+					"scheduledEndTime": "23:25:10",
+					"scheduledStartTime": "22:20:59",
+					"startTimeTicks": 453532995000,
+					"volume": 50
+				}, {
+					"duration": "00:00:10",
+					"durationTicks": 100000000,
+					"id": 0,
+					"mediaType": 6,
+					"name": "Power-HD.png",
+					"relativePath": "Picture\\Power-HD.png",
+					"scheduledEndTime": "22:26:25.2995000",
+					"scheduledStartTime": "22:26:15.2995000",
+					"startTimeTicks": 453752995000,
+					"volume": 50
+				}, {
+					"duration": "00:05:43",
+					"durationTicks": 3244668750,
+					"id": 0,
+					"mediaType": 5,
+					"name": "AKA_-_Caiphus_Song-fakaza.com_.mp3",
+					"relativePath": "Music\\AKA_-_Caiphus_Song-fakaza.com_.mp3",
+					"scheduledEndTime": "22:25:43",
+					"scheduledStartTime": "22:26:25",
+					"startTimeTicks": 453852995000,
+					"volume": 50
+				}, {
+					"duration": "00:03:25",
+					"durationTicks": 3015574375,
+					"id": 0,
+					"mediaType": 5,
+					"name": "AKA-AnatiiDont-Forget-to-Pray-Fakaza.com_.mp3",
+					"relativePath": "Music\\AKA-AnatiiDont-Forget-to-Pray-Fakaza.com_.mp3",
+					"scheduledEndTime": "22:26:51",
+					"scheduledStartTime": "22:21:49",
+					"startTimeTicks": 457097663750,
+					"volume": 50
+				}, {
+					"duration": "00:04:53",
+					"durationTicks": 2096848125,
+					"id": 0,
+					"mediaType": 5,
+					"name": "AKA-The-World-Is-Yours.mp3",
+					"relativePath": "Music\\AKA-The-World-Is-Yours.mp3",
+					"scheduledEndTime": "22:40:21",
+					"scheduledStartTime": "22:26:51",
+					"startTimeTicks": 460113238125,
+					"volume": 50
+				}, {
+					"duration": "00:04:38",
+					"durationTicks": 2096848125,
+					"id": 0,
+					"mediaType": 5,
+					"name": "aka-baddest.mp3",
+					"relativePath": "Music\\aka-baddest.mp3",
+					"scheduledEndTime": "22:50:21",
+					"scheduledStartTime": "22:46:51",
+					"startTimeTicks": 460113238125,
+					"volume": 50
+				}
+			],
+			"playlistName": "AKA Special",
+			"sessionDequeueCount": 0,
+			"startTime": "00:00:00",
+			"startTimeTicks": 451200000000
+		}
+	],
+	"startTime": "00:00:00",
+	"startTimeTicks": 451200000000,
+	"playlistTemplate": {
+		"mediaMatrix": {
+			"patternItems": [{
+					"allowDuplicates": true,
+					"playCount": 1,
+					"mediaType": 5,
+					"scheduleStyle": 1,
+					"scheduledTime": "00:00:00",
+					"scheduledTimeTicks": 0,
+					"volume": 50
+				}, {
+					"allowDuplicates": true,
+					"playCount": 1,
+					"mediaType": 9,
+					"scheduleStyle": 1,
+					"scheduledTime": "00:00:00",
+					"scheduledTimeTicks": 0,
+					"volume": 50
+				}, {
+					"allowDuplicates": true,
+					"playCount": 1,
+					"mediaType": 6,
+					"scheduleStyle": 1,
+					"scheduledTime": "00:00:00",
+					"scheduledTimeTicks": 0,
+					"volume": 50
+				}, {
+					"allowDuplicates": true,
+					"playCount": 2,
+					"mediaType": 5,
+					"scheduleStyle": 1,
+					"scheduledTime": "00:00:00",
+					"scheduledTimeTicks": 0,
+					"volume": 50
+				}
+			],
+			"timeScheduledItems": [],
+			"timeScheduledTypes": []
+		},
+		"templateName": "Template 1",
+		"filename": "Template 1.json"
+	},
+	"version": 1
+}

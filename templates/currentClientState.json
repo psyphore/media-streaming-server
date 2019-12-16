@@ -1,0 +1,19 @@
+{
+	"client": {
+		"name": "Food Lovers (La Lucia)",
+		"dropboxUri": "\\DBSLive\\FoodLovers\\La Lucia",
+		"ip": "",
+		"teamViewerId": "747791587",
+		"teamViewerPassword": "microserver1"
+	},
+	"version": "1.0.0",
+	"commandState": 2,
+	"playlistEndtime": "17:30",
+	"playlistName": "May",
+	"playlistScheduleName": "Schedule 1",
+	"playlistScheduleVersion": 0,
+	"playlistStartTime": "7:00",
+	"state": 1,
+	"pointInTime": 1493759067097,
+	"plalistItem": "current file"
+}
