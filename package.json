@@ -35,7 +35,7 @@
     "chokidar": "2.0.0",
     "connect-history-api-fallback": "1.5.0",
     "cors": "2.8.4",
-    "express": "4.16.2",
+    "express": "4.17.3",
     "express-history-api-fallback": "2.2.1",
     "leveldown": "2.1.1",
     "lodash": "4.17.21",
